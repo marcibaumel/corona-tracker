@@ -53,7 +53,7 @@ public class CoronaVirusDataService {
             locationStats.setDiffFromPreDay(latestCases-prevDayCases);
             //System.out.println(locationStats);
             newStats.add(locationStats);
-            //System.out.println(state);
+            System.out.println(locationStats);
 
             //String country = record.get("Country/Region");
             //String lat = record.get("Lat");
